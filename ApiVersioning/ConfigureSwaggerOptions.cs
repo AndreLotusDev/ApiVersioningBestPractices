@@ -38,7 +38,7 @@ namespace ApiVersioning
                 Title = "APIContagem",
                 Version = description.ApiVersion.ToString(),
                 Description = "Exemplo com a API de Contagem de Acessos utilizando Swagger, Swashbuckle e API versioning.",
-                Contact = new OpenApiContact() { Name = "Renato Groffe", Url = new Uri("https://github.com/renatogroffe") },
+                Contact = new OpenApiContact() { Name = "Renato Groffe", Url = new Uri("https://github.com/renatogroffe") }, //Esse projeto pega como referencia esse projeto default para testar a usabilidade do swagger 
                 License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
             };
 
